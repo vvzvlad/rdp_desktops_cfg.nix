@@ -60,29 +60,18 @@
     };
   };
 
-    services.xrdp = {
-      enable = true;
-      defaultWindowManager = "${pkgs.awesome}/bin/awesome";
-      package = pkgs.xrdp.overrideAttrs (oldAttrs: {
-        postInstall = oldAttrs.postInstall + ''
-          substituteInPlace $out/etc/xrdp/startwm.sh \
-            --replace "xterm" "awesome"
-        '';
-      });
-    };
+  services.xrdp = {
+    enable = true;
+    defaultWindowManager = "${pkgs.awesome}/bin/awesome";
+    package = pkgs.xrdp.overrideAttrs (oldAttrs: {
+      postInstall = oldAttrs.postInstall + ''
+        substituteInPlace $out/etc/xrdp/xrdp.ini \
+          --replace "ssl_protocols=TLSv1.2, TLSv1.3" "ssl_protocols=TLSv1, TLSv1.1, TLSv1.2, TLSv1.3"
+          --replace "crypt_level=high" "crypt_level=none"
+      '';
+    });
+  };
 
-
-  #nixpkgs.overlays = [
-  #  (final: prev: {
-  #    xrdp = prev.xrdp.overrideAttrs (_: {
-  #      postInstall = ''
-  #        sed -i -e 's/ssl_protocols=TLSv1.2, TLSv1.3/ssl_protocols=TLSv1, TLSv1.1, TLSv1.2, TLSv1.3/' $out/etc/xrdp/xrdp.ini
-  #        sed -i -e 's/crypt_level=high/crypt_level=none/' $out/etc/xrdp/xrdp.ini
-  #        sed -i -e 's/xterm/awesome/' $out/etc/xrdp/startwm.sh
-  #      '';
-  #    });
-  #  })
-  #];
 
   # Enable sound.
   sound.enable = true;
