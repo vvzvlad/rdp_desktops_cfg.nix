@@ -12,10 +12,10 @@ let
         type = types.listOf types.str;
         description = "List of CLI args to pass to chromium";
         default = [
-          "--noerrdialogs"
-          "--kiosk"
-          "--incognito"
-          "--force-device-scale-factor=0.79"
+#          "--noerrdialogs"
+#          "--kiosk"
+#          "--incognito"
+#          "--force-device-scale-factor=0.79"
         ];
       };
     };
@@ -32,7 +32,7 @@ in {
       home.file.".config/awesome/rc.lua".source =
         pkgs.runCommand "rc.lua" { } ''
           cat ${pkgs.awesome}/etc/xdg/awesome/rc.lua | sed 's/    set_wallpaper(s)/    --set_wallpaper(s)/g' > $out
-          printf "\nos.execute('${pkgs.chromium}/bin/chromium ${
+          printf "\nos.execute('${pkgs.firefox}/bin/firefox -private --kiosk ${
             concatStringsSep " " config.args
           } \"${config.url}\" &')" >> $out
         '';
