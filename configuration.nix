@@ -12,6 +12,11 @@
       inputs.home-manager.nixosModule
       ./awesome-kiosk.nix
     ];
+    
+  nix.extraOptions = ''
+      experimental-features = nix-command flakes
+  '';
+  home-manager.useGlobalPkgs = true;
 
   awesome-kiosk.users = {
     rdp1.url = "http://192.168.88.111:3006/d/zBbI5L57z/?kiosk=tv&to=now-1m&from=now-10d&refresh=5m";
