@@ -96,6 +96,7 @@
   environment.systemPackages = with pkgs; [
     wget
     chromium
+    firefox
     mc
     git
     killall
