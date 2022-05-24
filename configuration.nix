@@ -2,23 +2,24 @@
 # your system.  Help is available in the configuration.nix(5) man page
 # and in the NixOS manual (accessible by running ‘nixos-help’).
 
-{ lib, config, pkgs, ... }:
+{ lib, config, pkgs, inputs, ... }:
 
 {
   imports =
     [
       ./hardware-configuration.nix # Include the results of the hardware scan.
-      <home-manager/nixos> # exec "sudo nix-channel --add https://github.com/nix-community/home-manager/archive/release-21.11.tar.gz home-manager && sudo nix-channel --update" in new system
+      #<home-manager/nixos> # exec "sudo nix-channel --add https://github.com/nix-community/home-manager/archive/release-21.11.tar.gz home-manager && sudo nix-channel --update" in new system
+      inputs.home-manager.nixosModule
       ./awesome-kiosk.nix
     ];
 
   awesome-kiosk.users = {
-    rdp1.url = "https://yandex.ru";
-    rdp2.url = "https://google.com";
-    rdp3.url = "https://yandex.ru";
-    rdp4.url = "https://google.com";
-    rdp5.url = "https://yandex.ru";
-    rdp6.url = "https://google.com";
+    rdp1.url = "http://192.168.88.111:3006/d/zBbI5L57z/?kiosk=tv&to=now-1m&from=now-10d&refresh=5m";
+    rdp2.url = "http://192.168.88.111:3006/d/mCtETQx7z/?kiosk=tv&to=now-1m&from=now-10d&refresh=7m";
+    rdp3.url = "http://192.168.88.111:3006/d/w3V8TQxnz/?kiosk=tv&to=now-1m&from=now-10d&refresh=10m";
+    rdp4.url = "http://192.168.88.111:3006/d/Gy2wTwx7k/?kiosk=tv&to=now-1m&from=now-15d&refresh=15m";
+    rdp5.url = "http://192.168.88.111:3006/d/Ftv_owx7k/?kiosk=tv&to=now-1m&from=now-10d&refresh=1h";
+    rdp6.url = "https://map.blitzortung.org/#1.61/24.5/34.2";
     rdp7.url = "https://yandex.ru";
     rdp8.url = "https://google.com";
     rdp9.url = "https://yandex.ru";
@@ -133,7 +134,7 @@
   # this value at the release version of the first install of this system.
   # Before changing this value read the documentation for this option
   # (e.g. man configuration.nix or on https://nixos.org/nixos/options.html).
-  system.stateVersion = "21.11"; # Did you read the comment?
+  system.stateVersion = "22.05"; # Did you read the comment?
 
 }
 
