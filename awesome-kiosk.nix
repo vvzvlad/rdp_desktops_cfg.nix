@@ -34,7 +34,7 @@ in {
           cat ${pkgs.awesome}/etc/xdg/awesome/rc.lua | sed 's/    set_wallpaper(s)/    --set_wallpaper(s)/g' > $out
           printf "\nos.execute('${pkgs.chromium}/bin/chromium ${
             concatStringsSep " " config.args
-          } ${config.url} &')" >> $out
+          } \"${config.url}\" &')" >> $out
         '';
     }) cfg.users;
   };
