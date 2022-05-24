@@ -1,6 +1,6 @@
-Install(Unraid VM, 20GB)
-
-Boot on https://releases.nixos.org/nixos/unstable-small/nixos-22.05pre379797.c11d9597c1b/nixos-minimal-22.05pre379797.c11d9597c1b-x86_64-linux.iso
+Install(Unraid VM, 20GB)  
+  
+Boot on https://releases.nixos.org/nixos/unstable-small/nixos-22.05pre379797.c11d9597c1b/nixos-minimal-22.05pre379797.c11d9597c1b-x86_64-linux.iso  
 
 On VNC:
 sudo passwd, root/root, ip a
