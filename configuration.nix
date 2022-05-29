@@ -24,12 +24,12 @@
     rdp3.url = "http://192.168.88.111:3006/d/w3V8TQxnz/?kiosk=tv&to=now-1m&from=now-10d&refresh=10m";
     rdp4.url = "http://192.168.88.111:3006/d/Gy2wTwx7k/?kiosk=tv&to=now-1m&from=now-15d&refresh=15m";
     rdp5.url = "http://192.168.88.111:3006/d/Ftv_owx7k/?kiosk=tv&to=now-1m&from=now-10d&refresh=1h";
-    rdp6.url = "https://map.blitzortung.org/#1.61/24.5/34.2";
-    rdp7.url = "https://yandex.ru";
-    rdp8.url = "https://google.com";
-    rdp9.url = "https://yandex.ru";
-    rdp10.url = "https://google.com";
-    rdp11.url = "https://yandex.ru";
+    rdp6.url = "https://www.blitzortung.org/en/live_lightning_maps.php";
+    rdp7.url = "http://192.168.88.111:3006/d/zBbI5L57z/?kiosk=tv&to=now-1m&from=now-10d&refresh=6m";
+    rdp8.url = "http://192.168.88.111:3006/d/zBbI5L57z/?kiosk=tv&to=now-1m&from=now-10d&refresh=7m";
+    rdp9.url = "http://192.168.88.111:3006/d/zBbI5L57z/?kiosk=tv&to=now-1m&from=now-10d&refresh=8m";
+    rdp10.url = "http://192.168.88.111:3006/d/zBbI5L57z/?kiosk=tv&to=now-1m&from=now-10d&refresh=9m";
+    rdp11.url = "http://192.168.88.111:3006/d/zBbI5L57z/?kiosk=tv&to=now-1m&from=now-10d&refresh=10m";
   };
 
   # Use the systemd-boot EFI boot loader.
@@ -97,6 +97,7 @@
     wget
     chromium
     firefox
+    brave
     mc
     git
     killall
