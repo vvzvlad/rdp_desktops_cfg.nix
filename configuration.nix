@@ -7,8 +7,7 @@
 {
   imports =
     [
-      ./hardware-configuration.nix # Include the results of the hardware scan.
-      #<home-manager/nixos> # exec "sudo nix-channel --add https://github.com/nix-community/home-manager/archive/release-21.11.tar.gz home-manager && sudo nix-channel --update" in new system
+      ./hardware-configuration.nix
       inputs.home-manager.nixosModule
       ./awesome-kiosk.nix
     ];
@@ -35,7 +34,7 @@
   # Use the systemd-boot EFI boot loader.
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
-  networking.hostName = "nixos"; # Define your hostname.
+  networking.hostName = "nixos-rdp-server"; # Define your hostname.
   time.timeZone = "Europe/Moscow";
 
   networking.interfaces.enp1s0.useDHCP = true;
@@ -100,6 +99,7 @@
     brave
     mc
     git
+    htop
     killall
     nix-index
   ];
