@@ -30,13 +30,29 @@
     rdp10.url = "http://192.168.88.111:3006/d/zBbI5L57z/?kiosk=tv&to=now-1m&from=now-10d&refresh=9m";
     rdp11.url = "http://192.168.88.111:3006/d/zBbI5L57z/?kiosk=tv&to=now-1m&from=now-10d&refresh=10m";
   };
+  
+  systemd.services.foo = {
+    script = ''
+      rm /home/rdp1/.config/BraveSoftware/Brave-Browser/SingletonLock
+      rm /home/rdp2/.config/BraveSoftware/Brave-Browser/SingletonLock
+      rm /home/rdp3/.config/BraveSoftware/Brave-Browser/SingletonLock
+      rm /home/rdp4/.config/BraveSoftware/Brave-Browser/SingletonLock
+      rm /home/rdp5/.config/BraveSoftware/Brave-Browser/SingletonLock
+      rm /home/rdp6/.config/BraveSoftware/Brave-Browser/SingletonLock
+      rm /home/rdp7/.config/BraveSoftware/Brave-Browser/SingletonLock
+      rm /home/rdp8/.config/BraveSoftware/Brave-Browser/SingletonLock
+      rm /home/rdp9/.config/BraveSoftware/Brave-Browser/SingletonLock
+      rm /home/rdp10/.config/BraveSoftware/Brave-Browser/SingletonLock
+      rm /home/rdp11/.config/BraveSoftware/Brave-Browser/SingletonLock
+    '';
+    wantedBy = [ "multi-user.target" ];
+  };
 
   # Use the systemd-boot EFI boot loader.
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
-  networking.hostName = "nixos-rdp-server"; # Define your hostname.
+  networking.hostName = "nixos-rdp-server";
   time.timeZone = "Europe/Moscow";
-
   networking.interfaces.enp1s0.useDHCP = true;
 
   i18n.defaultLocale = "en_US.UTF-8";
