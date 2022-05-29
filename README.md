@@ -24,7 +24,7 @@ curl https://raw.githubusercontent.com/vvzvlad/rdp_desktops_cfg.nix/main/bootstr
 nixos-install  
 reboot  
   
-curl https://raw.githubusercontent.com/vvzvlad/rdp_desktops_cfg.nix/main/flake.nix > /etc/nixos/flake.nix  
-curl https://raw.githubusercontent.com/vvzvlad/rdp_desktops_cfg.nix/main/configuration.nix > /etc/nixos/configuration.nix  
-curl https://raw.githubusercontent.com/vvzvlad/rdp_desktops_cfg.nix/main/awesome-kiosk.nix > /etc/nixos/awesome-kiosk.nix  
-nixos-rebuild switch  
+curl https://raw.githubusercontent.com/vvzvlad/rdp_desktops_cfg.nix/main/flake.nix > /etc/nixos/flake.nix  && curl https://raw.githubusercontent.com/vvzvlad/rdp_desktops_cfg.nix/main/configuration.nix > /etc/nixos/configuration.nix  && curl https://raw.githubusercontent.com/vvzvlad/rdp_desktops_cfg.nix/main/awesome-kiosk.nix > /etc/nixos/awesome-kiosk.nix  && nixos-rebuild switch  
+
+
+killall -u rdp1 ; killall -u rdp2 ; killall -u rdp3 ; killall -u rdp4 ; killall -u rdp5 ; killall -u rdp6 ; killall -u rdp7 ; killall -u rdp8 ; killall -u rdp9 ; killall -u rdp10 ; killall -u rdp11  
