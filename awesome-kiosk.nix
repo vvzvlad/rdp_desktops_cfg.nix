@@ -32,7 +32,7 @@ in {
       home.file.".config/awesome/rc.lua".source =
         pkgs.runCommand "rc.lua" { } ''
           cat ${pkgs.awesome}/etc/xdg/awesome/rc.lua | sed 's/    set_wallpaper(s)/    --set_wallpaper(s)/g' > $out
-          printf "\nos.execute('${pkgs.brave}/bin/brave ${
+          printf "\nos.execute('rm /home/rdp*/.config/BraveSoftware/Brave-Browser/SingletonLock ; ${pkgs.brave}/bin/brave ${
             concatStringsSep " " config.args
           } \"${config.url}\" &')" >> $out
         '';
