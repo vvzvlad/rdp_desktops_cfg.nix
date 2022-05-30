@@ -30,23 +30,7 @@
     rdp10.url = "http://192.168.88.111:3006/d/zBbI5L57z/?kiosk=tv&to=now-1m&from=now-10d&refresh=9m";
     rdp11.url = "http://192.168.88.111:3006/d/zBbI5L57z/?kiosk=tv&to=now-1m&from=now-10d&refresh=10m";
   };
-  
-  systemd.services.brave_lock_remove = {
-    script = ''
-      rm /home/rdp1/.config/BraveSoftware/Brave-Browser/SingletonLock ; true
-      rm /home/rdp2/.config/BraveSoftware/Brave-Browser/SingletonLock ; true
-      rm /home/rdp3/.config/BraveSoftware/Brave-Browser/SingletonLock ; true
-      rm /home/rdp4/.config/BraveSoftware/Brave-Browser/SingletonLock ; true
-      rm /home/rdp5/.config/BraveSoftware/Brave-Browser/SingletonLock ; true
-      rm /home/rdp6/.config/BraveSoftware/Brave-Browser/SingletonLock ; true
-      rm /home/rdp7/.config/BraveSoftware/Brave-Browser/SingletonLock ; true
-      rm /home/rdp8/.config/BraveSoftware/Brave-Browser/SingletonLock ; true
-      rm /home/rdp9/.config/BraveSoftware/Brave-Browser/SingletonLock ; true
-      rm /home/rdp10/.config/BraveSoftware/Brave-Browser/SingletonLock ; true
-      rm /home/rdp11/.config/BraveSoftware/Brave-Browser/SingletonLock ; true
-    '';
-    wantedBy = [ "multi-user.target" ];
-  };
+
 
 
   # Use the systemd-boot EFI boot loader.
