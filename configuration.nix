@@ -23,7 +23,7 @@
     rdp3.url = "http://192.168.88.111:3006/d/w3V8TQxnz/?kiosk=tv&to=now-1m&from=now-10d&refresh=10m";
     rdp4.url = "http://192.168.88.111:3006/d/Gy2wTwx7k/?kiosk=tv&to=now-1m&from=now-15d&refresh=15m";
     rdp5.url = "http://192.168.88.111:3006/d/Ftv_owx7k/?kiosk=tv&to=now-1m&from=now-10d&refresh=1h";
-    rdp6.url = "https://ru.tradingview.com/chart/";
+    rdp6.url = "https://finviz.com/map.ashx";
     rdp7.url = "http://192.168.88.111:3006/d/mCtETQx7z/?kiosk=tv&to=now-1m&from=now-10d&refresh=7m";
     rdp8.url = "https://www.n2yo.com/";
     rdp9.url = "https://zoom.earth/maps/temperature/#view=57.5,70.1,4z";
