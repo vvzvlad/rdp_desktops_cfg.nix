@@ -23,12 +23,20 @@
     rdp3.url = "http://192.168.88.111:3006/d/w3V8TQxnz/?kiosk=tv&to=now-1m&from=now-10d&refresh=10m";
     rdp4.url = "http://192.168.88.111:3006/d/Gy2wTwx7k/?kiosk=tv&to=now-1m&from=now-15d&refresh=15m";
     rdp5.url = "http://192.168.88.111:3006/d/Ftv_owx7k/?kiosk=tv&to=now-1m&from=now-10d&refresh=1h";
-    rdp6.url = "https://zoom.earth/maps/temperature/#view=57.5,70.1,4z";
+    rdp6.url = "http://192.168.88.111:3006/d/zBbI5L57z/?kiosk=tv&to=now-1m&from=now-10d&refresh=5m";
+    
     rdp7.url = "http://192.168.88.111:3006/d/mCtETQx7z/?kiosk=tv&to=now-1m&from=now-10d&refresh=7m";
-    rdp8.url = "https://www.n2yo.com/";
-    rdp9.url = "https://zoom.earth/maps/temperature/#view=57.5,70.1,4z";
-    rdp10.url = "https://www.lightningmaps.org/#m=oss;t=3;s=0;o=0;b=;ts=0;y=49.9234;x=85.7888;z=3;d=2;dl=2;dc=0;";
-    rdp11.url = "https://finviz.com/map.ashx";
+    rdp8.url = "http://192.168.88.111:3006/d/w3V8TQxnz/?kiosk=tv&to=now-1m&from=now-10d&refresh=10m";
+    rdp9.url = "http://192.168.88.111:3006/d/Gy2wTwx7k/?kiosk=tv&to=now-1m&from=now-15d&refresh=15m";
+    rdp10.url = "http://192.168.88.111:3006/d/Ftv_owx7k/?kiosk=tv&to=now-1m&from=now-10d&refresh=1h";
+    rdp11.url = "http://192.168.88.111:3006/d/mCtETQx7z/?kiosk=tv&to=now-1m&from=now-10d&refresh=7m";
+    
+    #rdp6.url = "https://zoom.earth/maps/temperature/#view=57.5,70.1,4z";
+    #rdp7.url = "http://192.168.88.111:3006/d/mCtETQx7z/?kiosk=tv&to=now-1m&from=now-10d&refresh=7m";
+    #rdp8.url = "https://www.n2yo.com/";
+    #rdp9.url = "https://zoom.earth/maps/temperature/#view=57.5,70.1,4z";
+    #rdp10.url = "https://www.lightningmaps.org/#m=oss;t=3;s=0;o=0;b=;ts=0;y=49.9234;x=85.7888;z=3;d=2;dl=2;dc=0;";
+    #rdp11.url = "https://finviz.com/map.ashx";
   };
 
 
