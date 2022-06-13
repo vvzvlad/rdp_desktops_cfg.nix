@@ -28,7 +28,7 @@
     rdp7.url = "http://192.168.88.111:3006/d/mCtETQx7z/?kiosk=tv&to=now-1m&from=now-10d&refresh=7m";
     rdp8.url = "http://192.168.88.111:3006/d/w3V8TQxnz/?kiosk=tv&to=now-1m&from=now-10d&refresh=10m";
     rdp9.url = "http://192.168.88.111:3006/d/Gy2wTwx7k/?kiosk=tv&to=now-1m&from=now-15d&refresh=15m";
-    rdp10.url = "http://192.168.88.111:3006/d/Ftv_owx7k/?kiosk=tv&to=now-1m&from=now-10d&refresh=1h";
+    rdp10.url = "https://yandex.ru/pogoda/moscow/app-nowcast?nowcast=1&ll=37.683259_55.688735&z=9";
     rdp11.url = "https://dakboard.com/app/screenPredefined?p=a7ba09798b5a8a6a8ba48e28b2ca5b3c";
     
     #rdp6.url = "https://zoom.earth/maps/temperature/#view=57.5,70.1,4z";
