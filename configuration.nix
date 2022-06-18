@@ -18,25 +18,23 @@
   home-manager.useGlobalPkgs = true;
 
   awesome-kiosk.users = {
-    rdp1.url = "https://finviz.com/map.ashx?t=sec_all&st=w4";
-    rdp2.url = "https://zoom.earth/maps/temperature/#view=57.5,70.1,4z/overlays=wind";
+    rdp1.url = "https://yandex.ru/pogoda/moscow/app-nowcast?nowcast=1&ll=37.683259_55.688735&z=9";
+    rdp2.url = "https://zoom.earth/maps/temperature/#view=57.5,70.1,4z";
     rdp3.url = "http://192.168.88.111:3006/d/zBbI5L57z/?kiosk=tv&to=now-1m&from=now-15d&refresh=10m";
     rdp4.url = "http://192.168.88.111:3006/d/Gy2wTwx7k/?kiosk=tv&to=now-1m&from=now-20d&refresh=15m";
-    rdp5.url = "https://dakboard.com/app/screenPredefined?p=f487541ca91270d962487c6054a8a2c8";
+    rdp5.url = "https://finviz.com/map.ashx?t=sec_all&st=w4";
     rdp6.url = "https://dakboard.com/app/screenPredefined?p=a7ba09798b5a8a6a8ba48e28b2ca5b3c";
     
-    rdp7.url = "http://192.168.88.111:3006/d/mCtETQx7z/?kiosk=tv&to=now-1m&from=now-10d&refresh=7m";
-    rdp8.url = "http://192.168.88.111:3006/d/w3V8TQxnz/?kiosk=tv&to=now-1m&from=now-10d&refresh=10m";
+    rdp7.url = "http://192.168.88.111:3006/d/zBbI5L57z/?kiosk=tv&to=now-1m&from=now-15d&refresh=10m";
+    rdp8.url = "http://192.168.88.111:3006/d/Gy2wTwx7k/?kiosk=tv&to=now-1m&from=now-20d&refresh=15m";
     rdp9.url = "https://finviz.com/map.ashx?t=sec_all&st=w4";
-    rdp10.url = "https://yandex.ru/pogoda/moscow/app-nowcast?nowcast=1&ll=37.683259_55.688735&z=9";
+    rdp10.url = "https://dakboard.com/app/screenPredefined?p=f487541ca91270d962487c6054a8a2c8";
     rdp11.url = "https://dakboard.com/app/screenPredefined?p=a7ba09798b5a8a6a8ba48e28b2ca5b3c";
     
     #rdp6.url = "https://zoom.earth/maps/temperature/#view=57.5,70.1,4z";
-    #rdp7.url = "http://192.168.88.111:3006/d/mCtETQx7z/?kiosk=tv&to=now-1m&from=now-10d&refresh=7m";
     #rdp8.url = "https://www.n2yo.com/";
     #rdp9.url = "https://zoom.earth/maps/temperature/#view=57.5,70.1,4z";
     #rdp10.url = "https://www.lightningmaps.org/#m=oss;t=3;s=0;o=0;b=;ts=0;y=49.9234;x=85.7888;z=3;d=2;dl=2;dc=0;";
-    #rdp11.url = "https://finviz.com/map.ashx";
   };
 
 
