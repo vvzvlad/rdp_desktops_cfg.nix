@@ -18,11 +18,11 @@
   home-manager.useGlobalPkgs = true;
 
   awesome-kiosk.users = {
-    rdp1.url = "http://192.168.88.111:3006/d/zBbI5L57z/?kiosk=tv&to=now-1m&from=now-10d&refresh=5m";
-    rdp2.url = "http://192.168.88.111:3006/d/mCtETQx7z/?kiosk=tv&to=now-1m&from=now-10d&refresh=7m";
-    rdp3.url = "http://192.168.88.111:3006/d/w3V8TQxnz/?kiosk=tv&to=now-1m&from=now-10d&refresh=10m";
-    rdp4.url = "http://192.168.88.111:3006/d/Gy2wTwx7k/?kiosk=tv&to=now-1m&from=now-15d&refresh=15m";
-    rdp5.url = "https://finviz.com/map.ashx?t=sec_all&st=w4";
+    rdp1.url = "https://finviz.com/map.ashx?t=sec_all&st=w4";
+    rdp2.url = "https://zoom.earth/maps/temperature/#view=57.5,70.1,4z/overlays=wind";
+    rdp3.url = "http://192.168.88.111:3006/d/zBbI5L57z/?kiosk=tv&to=now-1m&from=now-15d&refresh=10m";
+    rdp4.url = "http://192.168.88.111:3006/d/Gy2wTwx7k/?kiosk=tv&to=now-1m&from=now-20d&refresh=15m";
+    rdp5.url = "https://dakboard.com/app/screenPredefined?p=f487541ca91270d962487c6054a8a2c8";
     rdp6.url = "https://dakboard.com/app/screenPredefined?p=a7ba09798b5a8a6a8ba48e28b2ca5b3c";
     
     rdp7.url = "http://192.168.88.111:3006/d/mCtETQx7z/?kiosk=tv&to=now-1m&from=now-10d&refresh=7m";
