@@ -18,8 +18,8 @@
   home-manager.useGlobalPkgs = true;
 
   awesome-kiosk.users = {
-    rdp1.url = "https://yandex.ru/pogoda/moscow/app-nowcast?nowcast=1&ll=37.683259_55.688735&z=9";
-    rdp2.url = "https://zoom.earth/maps/temperature/#view=57.5,70.1,4z";
+    rdp1.url = "https://google.com";
+    rdp2.url = "https://google.com";
     rdp3.url = "http://192.168.88.111:3006/d/mCtETQx7z/?kiosk=tv&to=now-1m&from=now-15d&refresh=10m";
     rdp4.url = "http://192.168.88.111:3006/d/Gy2wTwx7k/?kiosk=tv&to=now-1m&from=now-20d&refresh=15m";
     rdp5.url = "https://finviz.com/map.ashx?t=sec_all&st=w4";
