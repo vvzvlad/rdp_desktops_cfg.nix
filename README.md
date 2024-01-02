@@ -30,14 +30,14 @@ curl https://raw.githubusercontent.com/vvzvlad/rdp_desktops_cfg.nix/main/flake.n
 killall -u rdp1 ; killall -u rdp2 ; killall -u rdp3 ; killall -u rdp4 ; killall -u rdp5 ; killall -u rdp6 ; killall -u rdp7 ; killall -u rdp8 ; killall -u rdp9 ; killall -u rdp10 ; killall -u rdp11  
 
 
-rm /home/rdp1/.config/BraveSoftware/Brave-Browser/SingletonLock 
-rm /home/rdp2/.config/BraveSoftware/Brave-Browser/SingletonLock 
-rm /home/rdp3/.config/BraveSoftware/Brave-Browser/SingletonLock 
-rm /home/rdp4/.config/BraveSoftware/Brave-Browser/SingletonLock 
-rm /home/rdp5/.config/BraveSoftware/Brave-Browser/SingletonLock 
-rm /home/rdp6/.config/BraveSoftware/Brave-Browser/SingletonLock 
-rm /home/rdp7/.config/BraveSoftware/Brave-Browser/SingletonLock 
-rm /home/rdp8/.config/BraveSoftware/Brave-Browser/SingletonLock 
-rm /home/rdp9/.config/BraveSoftware/Brave-Browser/SingletonLock 
-rm /home/rdp10/.config/BraveSoftware/Brave-Browser/SingletonLock
-rm /home/rdp11/.config/BraveSoftware/Brave-Browser/SingletonLock
+rm /home/rdp1/.config/BraveSoftware/Brave-Browser/SingletonLock  
+rm /home/rdp2/.config/BraveSoftware/Brave-Browser/SingletonLock  
+rm /home/rdp3/.config/BraveSoftware/Brave-Browser/SingletonLock  
+rm /home/rdp4/.config/BraveSoftware/Brave-Browser/SingletonLock  
+rm /home/rdp5/.config/BraveSoftware/Brave-Browser/SingletonLock  
+rm /home/rdp6/.config/BraveSoftware/Brave-Browser/SingletonLock  
+rm /home/rdp7/.config/BraveSoftware/Brave-Browser/SingletonLock  
+rm /home/rdp8/.config/BraveSoftware/Brave-Browser/SingletonLock  
+rm /home/rdp9/.config/BraveSoftware/Brave-Browser/SingletonLock  
+rm /home/rdp10/.config/BraveSoftware/Brave-Browser/SingletonLock  
+rm /home/rdp11/.config/BraveSoftware/Brave-Browser/SingletonLock  
