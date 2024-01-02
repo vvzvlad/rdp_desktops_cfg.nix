@@ -24,13 +24,13 @@
     rdp4.url = "http://192.168.88.111:3006/d/Gy2wTwx7k/?kiosk=tv&to=now-1m&from=now-20d&refresh=15m";
     rdp5.url = "https://finviz.com/map.ashx?t=sec_all&st=w4";
     rdp6.url = "https://dakboard.com/app/screenPredefined?p=a7ba09798b5a8a6a8ba48e28b2ca5b3c";
-    
-    rdp7.url = "http://192.168.88.111:3006/d/mCtETQx7z/?kiosk=tv&to=now-1m&from=now-15d&refresh=10m";
-    rdp9.url = "http://192.168.88.111:3006/d/Gy2wTwx7k/?kiosk=tv&to=now-1m&from=now-20d&refresh=15m";
-    rdp10.url = "https://finviz.com/map.ashx?t=sec_all&st=w4";
+    rdp7.url = "http://borneo.lc:3000/d/fe8bced4-e5ae-4c58-99d0-e7a43a434f4d/smarthome?kiosk=tv&to=now-1m&from=now-20d&refresh=15m";
     rdp8.url = "https://dakboard.com/app/screenPredefined?p=f487541ca91270d962487c6054a8a2c8";
+    rdp9.url = "http://192.168.88.111:3006/d/Gy2wTwx7k/?kiosk=tv&to=now-1m&from=now-20d&refresh=15m";
+    rdp10.url = "http://borneo.lc:3000/d/d1c2065c-8d17-45de-8e69-ed782c14719a/proxmox?kiosk=tv&to=now-1m&from=now-20d&refresh=15m";
     rdp11.url = "https://dakboard.com/app/screenPredefined?p=a7ba09798b5a8a6a8ba48e28b2ca5b3c";
-    
+
+    #rdp10.url = "https://finviz.com/map.ashx?t=sec_all&st=w4";
     #rdp6.url = "https://zoom.earth/maps/temperature/#view=57.5,70.1,4z";
     #rdp8.url = "https://www.n2yo.com/";
     #rdp9.url = "https://zoom.earth/maps/temperature/#view=57.5,70.1,4z";
